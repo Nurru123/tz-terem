@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form  method="post" id="form" action="">
+            <div class="row gy-2 g-3">
+                <div class="col-sm">
+                    <select class="form-select" name="select_1" aria-label="form-select">
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <select class="form-select" name="select_2" aria-label="form-select">
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <select class="form-select" name="select_3" aria-label="form-select">
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row gy-2 g-3">
+                <div class="col-sm">
+                    <select class="form-select" name="select_4" aria-label="form-select">
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <select class="form-select" name="select_5" aria-label="form-select">
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row gy-2 g-3">
+                <div class="col-sm">
+                    <label for="textarea1" class="form-label lead">Textarea 1</label>
+                    <textarea class="form-control" id="textarea1" name="textarea_1" rows="3" placeholder="Enter your text here"></textarea>
+                </div>
+                <div class="col-sm">
+                    <label for="textarea2" class="form-label lead">Textarea 2</label>
+                    <textarea class="form-control" id="textarea2" name="textarea_2" rows="3" placeholder="Enter your text here"></textarea>
+                </div>
+            </div>
+            <div class="row gy-2">
+                <div class="col">
+                    <input class="btn btn-primary" id="btn" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+        <div class="row gy-2">
+            <div id="result_form"></div> 
+        </div>
+    </div>
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>

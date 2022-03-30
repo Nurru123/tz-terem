@@ -1,0 +1,21 @@
+.row {
+    margin: 5px auto;
+}
+
+.first-row_hidden {
+    display: none;
+}
+
+.col_new-order {
+    order: -1;
+}
+
+.content {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+.col-sm:nth-child(2) .content {
+    border: 1px dashed black;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum.">
+    <link href="/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="modal fade" id="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Это модальное окно</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Привет, мир!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Спасибо</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row gy-2 collapse show" id="first-row">
+            <div class="col">
+                <div class="content">
+                    <h1>Это заголовок H1 с надписью</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-2" id="second-row">
+            <div class="col-sm">
+                <div class="content bg-warning"></div>
+            </div>
+            <div class="col-sm col-to-change">
+                <div class="content bg-danger text-white"></div>
+            </div>
+            <div class="col-sm">
+                <div class="content bg-info"></div>
+            </div>
+        </div>
+        <div class="row gy-2" id="third-row">
+            <div class="col-sm-4">
+                <div class="content">
+                    <button type="button" class="btn btn-warning btn-sm"
+                        data-bs-target="#first-row" aria-expanded="false"
+                        aria-controls="first-row" data-bs-toggle="collapse">
+                        Кнопка 1
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="content">
+                    <button type="button" class="btn btn-success btn-sm">
+                        Кнопка 2
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
